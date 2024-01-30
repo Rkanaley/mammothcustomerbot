@@ -9,7 +9,7 @@ $prompt = isset($_POST['prompt']) ? sanitize_text_field($_POST['prompt']) : '';
 
     // Get the API key from an environment variable
     //$api_key = getenv('YOUR API KEY');
-$api_key = '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';
+$api_key = '('YOUR API KEY')';
 
     // Headers for the OpenAI API
     $headers = [
